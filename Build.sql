@@ -99,4 +99,14 @@ CREATE TABLE Vehicle_Film (
 CREATE TABLE Starship_Film ( 
     StarshipID INT,
     FilmID INT
-)
+);
+
+CREATE TABLE Starship_Characters (
+    StarshipID INT,
+    CharacterID INT
+);
+
+CREATE TABLE Vehicles_Characters (
+    VehicleID INT,
+    CharacterID INT
+);
