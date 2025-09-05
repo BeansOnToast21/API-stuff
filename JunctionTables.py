@@ -1,7 +1,6 @@
 import requests
-import sqlalchemy
 import json
-
+import pandas as pd
 
 
 target_people = requests.get("https://swapi.info/api/people")
@@ -15,9 +14,6 @@ film_characters_junction = []
 
 film_id_map = {}
 film_counter = 1
-
-
-
 
 
 for entry in data2:
@@ -138,4 +134,32 @@ for entry in data2:
                     "film_id": film_id,
                     "species_id": species_id })
 
-print(film_species_junction)
+
+
+
+#print(film_species_junction)
+
+df = pd.DataFrame(film_species_junction)
+print(df)
+
+
+
+from sqlalchemy import create_engine
+
+server = r'(localdb)\ProjectModels'
+database = 'StarWarsDB'
+
+connection_string = (
+    f"mssql+pyodbc://@{server}/{database}"
+    "?driver=ODBC+Driver+17+for+SQL+Server"
+    "&trusted_connection=yes"
+)
+
+engine = create_engine(connection_string)
+
+
+df.to_sql('Species_Film', con=engine, if_exists='replace', index=False)
+
+
+
+
