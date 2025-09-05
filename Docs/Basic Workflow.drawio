@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-7" value="Transform" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="182.5" width="640" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-6" value="Extract" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="340" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-1" value="Create&amp;nbsp; a list and add each download in the form of a dictionary with {Film: data}, {People: data}, etc.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="212.5" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-2" value="Take each dictionary entry and validate the data that is required" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="212.5" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-3" value="Access the api.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(maybe just loop through a list of the required api access points)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="212.5" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-8" value="Remove unwanted data" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="212.5" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-9" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="680" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-10" value="Seperate out data that is required but is not part of that dataset" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="212.5" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-11" value="Re build datasets so keys match database table names" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="830" y="212.5" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-12" value="Save to a list of tables" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="212.5" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-13" value="Recieve List of Tables" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="575" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-14" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="650" y="402.5" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3AaFKWvOd9eWl-buJHyZ-15" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Simple Workflow Diagram&lt;/font&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="600" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
