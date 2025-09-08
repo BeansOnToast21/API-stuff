@@ -7,10 +7,11 @@ An ETL pipeline for the extraction of star wars film data into a SQL Server data
 ## Table of Contents
 
 1. Set-up Instructions
-2. Contributing
-3. Contributers
-4. Future Improvemets
-5. ERD
+2. Usage
+3. Contributing
+4. Contributers
+5. Future Improvemets
+6. ERD
 
 ## Set-up instructions/ user guide
 
@@ -24,6 +25,18 @@ An ETL pipeline for the extraction of star wars film data into a SQL Server data
    ![This is the section of code you may need to alter within Load.py](https://github.com/BeansOnToast21/API-stuff/blob/main/images/Server_set_up_in_python.PNG?raw=true)
 7. Open runstarwarspipeline.py and click run
 8. Once complete acces the database to query it.
+
+## usage
+
+Use standard sql syntax to query the database:
+
+SELECT s.*
+FROM starships AS s
+INNER JOIN Film_Starships fs ON s.StarshipID = fs.starship_id
+INNER JOIN films f ON f.FilmID = fs.film_id
+WHERE f.FilmID = 2;
+
+brings up all the starships used in film 2
 
 ## Contributing
 
