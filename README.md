@@ -6,7 +6,7 @@
 
 4. Create an empty database on sql server named - "starwars_db"
 5. Ensure your database is running under windows authentication.
-5. In Load.py check that the server name is correct for your system, modify as required.
-6. Open runstarwarspipeline.py and click run
+6. In Load.py check that the server name is correct for your system, modify as required.
+7. 7Open runstarwarspipeline.py and click run
 
 
