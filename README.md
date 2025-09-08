@@ -21,8 +21,9 @@ An ETL pipeline for the extraction of star wars film data into a SQL Server data
 4. Create an empty database on sql server named - "starwars_db"
 5. Ensure your database is running under windows authentication.
 5. In Load.py check that the server name is correct for your system, modify as required.
-6. Open runstarwarspipeline.py and click run
-7. Once complete acces the database to query it.
+   ![This is the section of code you may need to alter within Load.py](https://github.com/BeansOnToast21/API-stuff/blob/main/images/Server_set_up_in_python.PNG?raw=true)
+7. Open runstarwarspipeline.py and click run
+8. Once complete acces the database to query it.
 
 ## Contributing
 
