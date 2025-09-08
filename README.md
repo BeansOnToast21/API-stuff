@@ -43,5 +43,5 @@ An ETL pipeline for the extraction of star wars film data into a SQL Server data
 - Create foreign keys and relationships for Planet - people and People - species
 
 ### ERD
-
+![Alt Text - ERD](url to the image you want to include)
 
